@@ -1,0 +1,55 @@
+
+---------------------------------------------
+
+     Command -  Result
+        g - toggle display menu
+        d - add
+        u - remove
+        1 - removeAny
+        v - value
+        ? - hasKey
+        z - size
+        x - transferFrom
+        = - copy
+        l - load from file
+        o - output to file
+        p - display
+        c - clear
+        q - quit program
+
+---------------------------------------------
+
+        command:
+
+Add to which Map? 1 or 2:
+Enter a key value (integer):Enter text string:
+m1.add (key, value); executed.
+key = 0   value = ""
+
+Add to which Map? 1 or 2:
+Enter a key value (integer):Enter text string:
+m1.add (key, value); executed.
+key = 0   value = ""
+
+Add to which Map? 1 or 2:
+Enter a key value (integer):Enter text string:
+m1.add (key, value); executed.
+key = 0   value = ""
+
+Size of which Map? 1 or 2:
+|m1| = 3
+
+Has key in which Map? 1 or 2:
+Enter a key value (integer):8 is in m1
+
+Has key in which Map? 1 or 2:
+Enter a key value (integer):4 is in m1
+
+Has key in which Map? 1 or 2:
+Enter a key value (integer):5 is in m1
+
+Has key in which Map? 1 or 2:
+Enter a key value (integer):17 is not in m1
+
+Quit Command Interpreter
+end program
