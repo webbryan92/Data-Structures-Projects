@@ -1,0 +1,42 @@
+
+---------------------------------------------
+
+     Command -  Result
+        g - toggle display menu
+        e - addRightFront
+        d - removeRightFront
+        r - replaceRightFront
+        f - rightFront
+        a - advance
+        < - moveToStart
+        > - moveToFinish
+        s - swapRights
+        ( - leftLength
+        ) - rightLength
+        x - transferFrom
+        = - copy
+        l - load from file
+        o - output to file
+        p - display
+        c - clear
+        q - quit program
+
+---------------------------------------------
+
+        command:
+
+Remove right from which List? 1 or 2:
+
+Executed s2.removeRightFront(x);
+x = ""
+
+Replace right front of which List? 1 or 2:
+Enter text string:
+Executed s2.replaceRightFront(x);
+x = ""
+
+Unknown command: 2
+Please reenter your command
+
+Quit Command Interpreter
+end program

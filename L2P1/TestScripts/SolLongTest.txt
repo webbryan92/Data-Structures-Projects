@@ -1,0 +1,173 @@
+
+---------------------------------------------
+
+     Command -  Result
+        g - toggle display menu
+        e - addRightFront
+        d - removeRightFront
+        r - replaceRightFront
+        f - rightFront
+        a - advance
+        < - moveToStart
+        > - moveToFinish
+        s - swapRights
+        ( - leftLength
+        ) - rightLength
+        x - transferFrom
+        = - copy
+        l - load from file
+        o - output to file
+        p - display
+        c - clear
+        q - quit program
+
+---------------------------------------------
+
+        command:
+
+Add right to which List? 1 or 2:
+Enter text string:
+Executed s1.addRightFront(x);
+x = ""
+
+Add right to which List? 1 or 2:
+Enter text string:
+Executed s1.addRightFront(x);
+x = ""
+
+Add right to which List? 1 or 2:
+Enter text string:
+Executed s1.addRightFront(x);
+x = ""
+
+Add right to which List? 1 or 2:
+Enter text string:
+Executed s1.addRightFront(x);
+x = ""
+
+Display which List? 1 or 2:
+s1 = <> <"aloha","hey","hi","hello">
+
+
+Remove right from which List? 1 or 2:
+
+Executed s1.removeRightFront(x);
+x = "aloha"
+
+Add right to which List? 1 or 2:
+Enter text string:
+Executed s1.addRightFront(x);
+x = ""
+
+Display which List? 1 or 2:
+s1 = <> <"bonjour","hey","hi","hello">
+
+
+Replace right front of which List? 1 or 2:
+Enter text string:
+Executed s1.replaceRightFront(x);
+x = "bonjour"
+
+Access right front which List? 1 or 2:
+s1.rightFront() = "wassup"
+
+Advance which List? 1 or 2:
+Executed s1.advance();
+
+Display which List? 1 or 2:
+s1 = <"wassup"> <"hey","hi","hello">
+
+
+Left length of which List? 1 or 2:
+|s1.left| = 1
+
+Right length of which List? 1 or 2:
+|s1.right| = 3
+
+Advance which List? 1 or 2:
+Executed s1.advance();
+
+Display which List? 1 or 2:
+s1 = <"wassup","hey"> <"hi","hello">
+
+
+Advance which List? 1 or 2:
+Executed s1.advance();
+
+Display which List? 1 or 2:
+s1 = <"wassup","hey","hi"> <"hello">
+
+
+Advance which List? 1 or 2:
+Executed s1.advance();
+
+Left length of which List? 1 or 2:
+|s1.left| = 4
+
+Right length of which List? 1 or 2:
+|s1.right| = 0
+
+Display which List? 1 or 2:
+s1 = <"wassup","hey","hi","hello"> <>
+
+
+Move to start which List? 1 or 2:
+Executed s1.moveToStart();
+
+Display which List? 1 or 2:
+s1 = <> <"wassup","hey","hi","hello">
+
+
+Move to finish which List? 1 or 2:
+Executed s1.moveToFinish();
+
+Display which List? 1 or 2:
+s1 = <"wassup","hey","hi","hello"> <>
+
+
+Move to start which List? 1 or 2:
+Executed s1.moveToStart();
+
+Copy which List? 1 or 2:
+Executed s2 = s1;
+
+Display which List? 1 or 2:
+s1 = <> <"wassup","hey","hi","hello">
+
+
+Display which List? 1 or 2:
+s2 = <> <"wassup","hey","hi","hello">
+
+
+Move to finish which List? 1 or 2:
+Executed s1.moveToFinish();
+
+
+Executed s1.swapRights(s2);
+
+Display which List? 1 or 2:
+s1 = <"wassup","hey","hi","hello"> <"wassup","hey","hi","hello">
+
+
+Display which List? 1 or 2:
+s2 = <> <>
+
+
+Clear which List? 1 or 2:
+
+s1.clear();
+
+Clear which List? 1 or 2:
+
+s2.clear();
+
+Display which List? 1 or 2:
+s1 = <> <>
+
+
+Display which List? 1 or 2:
+s2 = <> <>
+
+
+Quit Command Interpreter
+end program
