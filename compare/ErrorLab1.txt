@@ -1,0 +1,38 @@
+
+---------------------------------------------
+
+     Command -  Result
+        g - toggle display menu
+        e - addRightFront
+        d - removeRightFront
+        r - replaceRightFront
+        f - rightFront
+        a - advance
+        < - moveToStart
+        > - moveToFinish
+        s - swapRights
+        ( - leftLength
+        ) - rightLength
+        x - transferFrom
+        = - copy
+        l - load from file
+        o - output to file
+        p - display
+        c - clear
+        q - quit program
+
+---------------------------------------------
+
+        command:
+
+Remove right from which List? 1 or 2:
+Error: |s1.right| = 0 - cannot Remove right from an empty s1.right.
+
+Replace right front of which List? 1 or 2:
+Enter text string:Error: |s1.right| = 0 - cannot replace right front from an empty s1.right.
+
+Unknown command: 1
+Please reenter your command
+
+Quit Command Interpreter
+end program
