@@ -1,0 +1,15 @@
+g
+l
+color.dat
+1
+s
+p
+1
+p
+2
+s
+p
+1
+p
+2
+q

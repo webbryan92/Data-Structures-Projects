@@ -1,0 +1,346 @@
+
+---------------------------------------------
+
+     Command -  Result
+        g - toggle display menu
+        e - addRightFront
+        d - removeRightFront
+        r - replaceRightFront
+        f - rightFront
+        a - advance
+        < - moveToStart
+        > - moveToFinish
+        s - swapRights
+        ( - leftLength
+        ) - rightLength
+        x - transferFrom
+        = - copy
+        l - load from file
+        o - output to file
+        p - display
+        c - clear
+        q - quit program
+
+---------------------------------------------
+
+        command:
+
+Add right to which List? 1 or 2:
+Enter text string:
+Executed s1.addRightFront(x);
+x = ""
+
+Add right to which List? 1 or 2:
+Enter text string:
+Executed s1.addRightFront(x);
+x = ""
+
+Add right to which List? 1 or 2:
+Enter text string:
+Executed s1.addRightFront(x);
+x = ""
+
+Add right to which List? 1 or 2:
+Enter text string:
+Executed s1.addRightFront(x);
+x = ""
+
+Add right to which List? 1 or 2:
+Enter text string:
+Executed s1.addRightFront(x);
+x = ""
+
+Add right to which List? 1 or 2:
+Enter text string:
+Executed s1.addRightFront(x);
+x = ""
+
+Display which List? 1 or 2:
+s1 = 
+ lengthOfLeft: 0
+lengthOfRight: 6
+         head: 0096ED98
+#0096ED98("indigomontoya",#008AC5D0)
+#008AC5D0("indigo",#008BE918)
+#008BE918("green",#0096EDF8)
+#0096EDF8("red",#0096EEB8)
+#0096EEB8("yellow",#0096EF38)
+#0096EF38("blue",#00000000)
+
+
+
+Advance which List? 1 or 2:
+Executed s1.advance();
+
+Display which List? 1 or 2:
+s1 = 
+ lengthOfLeft: 1
+lengthOfRight: 5
+         head: 0096ED98
+#0096ED98("indigomontoya",#008AC5D0)
+#008AC5D0("indigo",#008BE918)
+#008BE918("green",#0096EDF8)
+#0096EDF8("red",#0096EEB8)
+#0096EEB8("yellow",#0096EF38)
+#0096EF38("blue",#00000000)
+
+
+
+Remove right from which List? 1 or 2:
+
+Executed s1.removeRightFront(x);
+x = "indigo"
+
+Display which List? 1 or 2:
+s1 = 
+ lengthOfLeft: 1
+lengthOfRight: 4
+         head: 0096ED98
+#0096ED98("indigomontoya",#008BE918)
+#008BE918("green",#0096EDF8)
+#0096EDF8("red",#0096EEB8)
+#0096EEB8("yellow",#0096EF38)
+#0096EF38("blue",#00000000)
+
+
+
+Left length of which List? 1 or 2:
+|s1.left| = 1
+
+Right length of which List? 1 or 2:
+|s1.right| = 4
+
+Move to start which List? 1 or 2:
+Executed s1.moveToStart();
+
+Display which List? 1 or 2:
+s1 = 
+ lengthOfLeft: 0
+lengthOfRight: 5
+         head: 0096ED98
+#0096ED98("indigomontoya",#008BE918)
+#008BE918("green",#0096EDF8)
+#0096EDF8("red",#0096EEB8)
+#0096EEB8("yellow",#0096EF38)
+#0096EF38("blue",#00000000)
+
+
+
+Move to finish which List? 1 or 2:
+Executed s1.moveToFinish();
+
+Display which List? 1 or 2:
+s1 = 
+ lengthOfLeft: 5
+lengthOfRight: 0
+         head: 0096ED98
+#0096ED98("indigomontoya",#008BE918)
+#008BE918("green",#0096EDF8)
+#0096EDF8("red",#0096EEB8)
+#0096EEB8("yellow",#0096EF38)
+#0096EF38("blue",#00000000)
+
+
+
+Left length of which List? 1 or 2:
+|s1.left| = 5
+
+Right length of which List? 1 or 2:
+|s1.right| = 0
+
+Move to start which List? 1 or 2:
+Executed s1.moveToStart();
+
+Advance which List? 1 or 2:
+Executed s1.advance();
+
+Access right front which List? 1 or 2:
+s1.rightFront() = "green"
+
+Advance which List? 1 or 2:
+Executed s1.advance();
+
+Access right front which List? 1 or 2:
+s1.rightFront() = "red"
+
+Replace right front of which List? 1 or 2:
+Enter text string:
+Executed s1.replaceRightFront(x);
+x = "red"
+
+Display which List? 1 or 2:
+s1 = 
+ lengthOfLeft: 2
+lengthOfRight: 3
+         head: 0096ED98
+#0096ED98("indigomontoya",#008BE918)
+#008BE918("green",#0096EDF8)
+#0096EDF8("GaryOak",#0096EEB8)
+#0096EEB8("yellow",#0096EF38)
+#0096EF38("blue",#00000000)
+
+
+
+Add right to which List? 1 or 2:
+Enter text string:
+Executed s2.addRightFront(x);
+x = ""
+
+Add right to which List? 1 or 2:
+Enter text string:
+Executed s2.addRightFront(x);
+x = ""
+
+Add right to which List? 1 or 2:
+Enter text string:
+Executed s2.addRightFront(x);
+x = ""
+
+Add right to which List? 1 or 2:
+Enter text string:
+Executed s2.addRightFront(x);
+x = ""
+
+Add right to which List? 1 or 2:
+Enter text string:
+Executed s2.addRightFront(x);
+x = ""
+
+Add right to which List? 1 or 2:
+Enter text string:
+Executed s2.addRightFront(x);
+x = ""
+
+Advance which List? 1 or 2:
+Executed s2.advance();
+
+Advance which List? 1 or 2:
+Executed s2.advance();
+
+Advance which List? 1 or 2:
+Executed s2.advance();
+
+Display which List? 1 or 2:
+s2 = 
+ lengthOfLeft: 3
+lengthOfRight: 3
+         head: 008AC7A0
+#008AC7A0("BobRoss",#008AC740)
+#008AC740("pear",#008AC630)
+#008AC630("apple",#008AC5D0)
+#008AC5D0("salad",#0096ED38)
+#0096ED38("carrot",#0096EE58)
+#0096EE58("potato",#00000000)
+
+
+
+
+Executed s1.swapRights(s2);
+
+Display which List? 1 or 2:
+s1 = 
+ lengthOfLeft: 2
+lengthOfRight: 3
+         head: 0096ED98
+#0096ED98("indigomontoya",#008BE918)
+#008BE918("green",#008AC5D0)
+#008AC5D0("salad",#0096ED38)
+#0096ED38("carrot",#0096EE58)
+#0096EE58("potato",#00000000)
+
+
+
+Display which List? 1 or 2:
+s2 = 
+ lengthOfLeft: 3
+lengthOfRight: 3
+         head: 008AC7A0
+#008AC7A0("BobRoss",#008AC740)
+#008AC740("pear",#008AC630)
+#008AC630("apple",#0096EDF8)
+#0096EDF8("GaryOak",#0096EEB8)
+#0096EEB8("yellow",#0096EF38)
+#0096EF38("blue",#00000000)
+
+
+
+Move to start which List? 1 or 2:
+Executed s1.moveToStart();
+
+Move to start which List? 1 or 2:
+Executed s2.moveToStart();
+
+
+Executed s1.swapRights(s2);
+
+Display which List? 1 or 2:
+s1 = 
+ lengthOfLeft: 0
+lengthOfRight: 6
+         head: 008AC7A0
+#008AC7A0("BobRoss",#008AC740)
+#008AC740("pear",#008AC630)
+#008AC630("apple",#0096EDF8)
+#0096EDF8("GaryOak",#0096EEB8)
+#0096EEB8("yellow",#0096EF38)
+#0096EF38("blue",#00000000)
+
+
+
+Display which List? 1 or 2:
+s2 = 
+ lengthOfLeft: 0
+lengthOfRight: 5
+         head: 0096ED98
+#0096ED98("indigomontoya",#008BE918)
+#008BE918("green",#008AC5D0)
+#008AC5D0("salad",#0096ED38)
+#0096ED38("carrot",#0096EE58)
+#0096EE58("potato",#00000000)
+
+
+
+
+Executed s1.swapRights(s2);
+
+Display which List? 1 or 2:
+s1 = 
+ lengthOfLeft: 0
+lengthOfRight: 5
+         head: 0096ED98
+#0096ED98("indigomontoya",#008BE918)
+#008BE918("green",#008AC5D0)
+#008AC5D0("salad",#0096ED38)
+#0096ED38("carrot",#0096EE58)
+#0096EE58("potato",#00000000)
+
+
+
+Display which List? 1 or 2:
+s2 = 
+ lengthOfLeft: 0
+lengthOfRight: 6
+         head: 008AC7A0
+#008AC7A0("BobRoss",#008AC740)
+#008AC740("pear",#008AC630)
+#008AC630("apple",#0096EDF8)
+#0096EDF8("GaryOak",#0096EEB8)
+#0096EEB8("yellow",#0096EF38)
+#0096EF38("blue",#00000000)
+
+
+
+Quit Command Interpreter
+end program
+No memory leaks detected.
+
+Memory usage statistics:
+--------
+Total memory allocated during execution:   2173 bytes
+Maximum memory in use during execution:    647 bytes
+Number of calls to new:                    122
+Number of calls to delete (non-null):      122
+Number of calls to new[]:                  55
+Number of calls to delete[] (non-null):    55
+Number of calls to delete (null):          0
+Number of calls to delete[] (null):        0
